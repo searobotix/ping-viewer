@@ -1,0 +1,802 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>Build Instructions - Ping Viewer</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#03a9f4">
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../css/center_images.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="light-blue" data-md-color-accent="blue">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#build-instructions" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Ping Viewer" class="md-header-nav__button md-logo">
+          
+            <i class="md-icon"></i>
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Ping Viewer
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Build Instructions
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Ping Viewer" class="md-nav__button md-logo">
+      
+        <i class="md-icon"></i>
+      
+    </a>
+    Ping Viewer
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Quick Start" class="md-nav__link">
+      Quick Start
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Viewer Guide
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Viewer Guide
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-1" type="checkbox" id="nav-2-1">
+    
+    <label class="md-nav__link" for="nav-2-1">
+      Device Settings
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-1">
+        Device Settings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../device-settings-ping1d/" title="Ping1D" class="md-nav__link">
+      Ping1D
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../device-settings-ping360/" title="Ping360" class="md-nav__link">
+      Ping360
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../firmware-update/" title="Firmware Update" class="md-nav__link">
+      Firmware Update
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2-2" type="checkbox" id="nav-2-2">
+    
+    <label class="md-nav__link" for="nav-2-2">
+      Application Settings
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-2-2">
+        Application Settings
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../display-settings/" title="Display Settings" class="md-nav__link">
+      Display Settings
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../device-manager/" title="Device Manager" class="md-nav__link">
+      Device Manager
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../notifications-and-updates/" title="Notificiations and Updates" class="md-nav__link">
+      Notificiations and Updates
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../replay-data/" title="Replay Data" class="md-nav__link">
+      Replay Data
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../application-information/" title="Application Information" class="md-nav__link">
+      Application Information
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../hotkeys-and-shortcuts/" title="Hotkeys and Shortcuts" class="md-nav__link">
+      Hotkeys and Shortcuts
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../logging-and-user-files/" title="Logging and User Files" class="md-nav__link">
+      Logging and User Files
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../faq-and-troubleshooting/" title="FAQ and Troubleshooting" class="md-nav__link">
+      FAQ and Troubleshooting
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Developers
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Developers
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Build Instructions
+      </label>
+    
+    <a href="./" title="Build Instructions" class="md-nav__link md-nav__link--active">
+      Build Instructions
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#daily-builds" class="md-nav__link">
+    Daily Builds
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-code" class="md-nav__link">
+    Source Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-ping-viewer" class="md-nav__link">
+    Build Ping-Viewer
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#native-builds" class="md-nav__link">
+    Native Builds
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-visual-studio-2017-windows-only" class="md-nav__link">
+    Install Visual Studio 2017 (Windows Only)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-qt" class="md-nav__link">
+    Install Qt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-using-qt-creator" class="md-nav__link">
+    Building using Qt Creator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-with-terminal" class="md-nav__link">
+    Building with terminal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../libraries-and-tools/" title="Libraries and Tools" class="md-nav__link">
+      Libraries and Tools
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#daily-builds" class="md-nav__link">
+    Daily Builds
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#source-code" class="md-nav__link">
+    Source Code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-ping-viewer" class="md-nav__link">
+    Build Ping-Viewer
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#native-builds" class="md-nav__link">
+    Native Builds
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#install-visual-studio-2017-windows-only" class="md-nav__link">
+    Install Visual Studio 2017 (Windows Only)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#install-qt" class="md-nav__link">
+    Install Qt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-using-qt-creator" class="md-nav__link">
+    Building using Qt Creator
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#building-with-terminal" class="md-nav__link">
+    Building with terminal
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="build-instructions">Build instructions</h1>
+<p>The following topic will explain how to get <em>Ping-Viewer</em> source code and how to build it.</p>
+<h2 id="daily-builds">Daily Builds</h2>
+<p>If you just want to test (and not debug) a recent build of <em>Ping-Viewer</em> you can use the <a href="https://github.com/bluerobotics/ping-viewer/releases/tag/continuous">Continuous Build</a>. Versions are provided for all platforms [Windows, Linux and Mac].</p>
+<h2 id="source-code">Source Code</h2>
+<p>Source code for <em>Ping-Viewer</em> is kept on GitHub here: https://github.com/bluerobotics/ping-viewer, and it's <a href="https://github.com/bluerobotics/ping-viewer/blob/master/LICENSE.md">licensed under GPLv3</a>.</p>
+<p>To get the source files:
+1. Clone the repo (or your fork) including submodules and go inside folder:
+   <code>git clone https://github.com/bluerobotics/ping-viewer --recursive &amp;&amp; cd ping-viewer</code>
+2. Update submodules (required each time you pull new source code):
+   <code>git submodule update --init --recursive</code></p>
+<blockquote>
+<p><strong>Note:</strong> Github source-code zip files cannot be used because these do not contain the appropriate submodule source code. You must use git!</p>
+</blockquote>
+<h2 id="build-ping-viewer">Build Ping-Viewer</h2>
+<h3 id="native-builds">Native Builds</h3>
+<p><em>Ping-Viewer</em> builds are supported for Windows, Linux and macOS. This is possible with the <a href="http://www.qt.io">Qt toolkit</a> as its cross-platform support library.</p>
+<ul>
+<li><strong>macOS:</strong> v10.14 or higher</li>
+<li><strong>Linux:</strong> 64 bit, gcc-8 or clang-7 compiler versions or higher</li>
+<li><strong>Windows:</strong> 10 or higher, Visual Studio 2017 compiler (64 bit)</li>
+<li><strong>Qt version:</strong> 5.12 <strong>(only)</strong></li>
+</ul>
+<blockquote>
+<p><strong>Tip:</strong> For more information see: <a href="http://doc.qt.io/qt-5/supported-platforms.html">Qt 5 supported platform list</a>.</p>
+</blockquote>
+<h4 id="install-visual-studio-2017-windows-only">Install Visual Studio 2017 (Windows Only)</h4>
+<p>The Windows compiler can be found here: <a href="https://visualstudio.microsoft.com/vs/older-downloads/">Visual Studio 2017 compiler</a> (64 bit).</p>
+<p>When installing, you must minimally select all Visual C++ components.</p>
+<h4 id="install-qt">Install Qt</h4>
+<ol>
+<li>Download and run the <a href="http://www.qt.io/download-open-source">Qt Online Installer</a>.</li>
+<li>In the installer <em>Select Components</em> dialog choose: 5.12.</li>
+</ol>
+<p>Then install just the following components:
+   - <strong>Qt binary version:</strong>
+     - <strong>Windows</strong>: <em>MSVC 2017 64-bit</em>
+     - <strong>MacOS</strong>: <em>macOS Clang 64-bit</em>
+     - <strong>Linux</strong>: <em>Desktop gcc 64-bit</em>
+   - Everything else may be necessary except Android tools.</p>
+<ol>
+<li>Install Additional Packages (Platform Specific)</li>
+<li><strong>Windows:</strong> <a href="https://cdn.sparkfun.com/assets/learn_tutorials/7/4/CDM21228_Setup.exe">USB Driver</a>.</li>
+</ol>
+<h4 id="building-using-qt-creator">Building using Qt Creator</h4>
+<ol>
+<li>Launch <em>Qt Creator</em> and open the <strong>pingviewer.pro</strong> project.</li>
+<li>Select the appropriate kit for your needs:</li>
+<li><strong>macOS:</strong> Desktop Qt 5.12 Clang 64 bit</li>
+<li><strong>Linux:</strong> Desktop Qt 5.12 GCC 64 bit</li>
+<li><strong>Windows:</strong> Desktop Qt 5.12 MSVC2017 64 bit</li>
+<li>Build and run with the <strong>Green Play icon</strong>.</li>
+</ol>
+<h4 id="building-with-terminal">Building with terminal</h4>
+<ol>
+<li>Go outside the cloned folder of Ping-Viewer</li>
+<li>Create the build folder<ul>
+<li><code>mkdir ping-viewer-build</code></li>
+</ul>
+</li>
+<li>Go inside build folder<ul>
+<li><code>cd ping-viewer-build</code></li>
+</ul>
+</li>
+<li>Run qmake command<ul>
+<li><code>qmake ../ping-viewer</code></li>
+</ul>
+</li>
+<li>And build it<ul>
+<li><code>make</code></li>
+</ul>
+</li>
+<li>And after that you'll be able to run the project<ul>
+<li><code>./pingviewer</code></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>Tip</strong>: You can use <code>make -jN</code> where N is the number of threads in your computer to improve the compiling speed.</p>
+</blockquote>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../faq-and-troubleshooting/" title="FAQ and Troubleshooting" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                FAQ and Troubleshooting
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../libraries-and-tools/" title="Libraries and Tools" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Libraries and Tools
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
