@@ -8,8 +8,7 @@
 ![](https://img.shields.io/github/search/bluerobotics/ping-viewer/TODO:.svg)
 
 
-Ping Viewer 是 [P30][4]/[P360][4] 等声呐软件的上位机程序. Ping is a simple, affordable, and compact rangefinder
-for any aquatic project.
+Ping Viewer 是 [Ping/P30][4]等声呐的上位机软件. Ping/P30 是非常高性价比的水下测距声呐，常用于ROV/AUV等水下机器人的高度计、水下测距、避障等功能。
 
 无论对于初学者或者开发者，Ping Viewer 都可以让声呐使用变得更简单. PingViewer 提供了全部的开发接口，包括参数配置、可视化接口等信息，通过 [ping-protocol][1]实现。
 
