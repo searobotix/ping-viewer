@@ -7,12 +7,11 @@
 ![](https://img.shields.io/github/commit-activity/4w/bluerobotics/ping-viewer.svg)
 ![](https://img.shields.io/github/search/bluerobotics/ping-viewer/TODO:.svg)
 
-
 Ping Viewer 是 [Ping/P30][4] 等声呐的上位机软件. [Ping/P30][4] 是一款非常高性价比的水下测距声呐，常被 ROV/AUV 等水下机器人用于离底高度测量、水下测距、避障等功能。
 
 无论对于初学者或者开发者，Ping Viewer 都可以让声呐使用变得更简单. Ping Viewer 软件提供了全部的开发接口，包括参数配置、可视化接口等信息，可通过 [ping-protocol][1] 协议实现。
 
-所有的代码都是开源的，任何人都可以修改或者贡献自己的程序.
+所有的代码都是开源的，任何人都可以修改或者贡献自己的程序. 感谢 [BlueRobotics][5] 团队的杰出贡献.
 
 <br/>
 
@@ -39,4 +38,4 @@ Ping Viewer 是 [Ping/P30][4] 等声呐的上位机软件. [Ping/P30][4] 是一�
 [2]: http://searobotix.com/docs/ping-viewer/
 [3]: https://github.com/bluerobotics/software-guidelines
 [4]: http://searobotix.com/p30-sonar/
-[5]: https://discuss.bluerobotics.com/
+[5]: https://www.bluerobotics.com/
