@@ -25,12 +25,11 @@ Ping Viewer 是 [Ping/P30/S500][4] 等声呐的上位机软件. [P30][4] 是一�
 - :apple: [Apple](https://github.com/bluerobotics/ping-viewer/releases/download/stable/pingviewer-release.dmg)
 - :penguin: [Linux](https://github.com/bluerobotics/ping-viewer/releases/download/stable/pingviewer-x86_64.AppImage)
 
-## Resources :paperclip:
+## 资源 :paperclip:
 
 * [Application Documentation][2]
 * [API Reference][1]
-* [Device Specifications](https://www.bluerobotics.com/store/sensors-sonars-cameras/sonar/ping-sonar-r2-rp/#tab-technical-details)
-* [Forum][5]
+* [Device Specifications][4]
 * [License](http://github.com/bluerobotics/ping-viewer/blob/master/LICENSE.md)
 * [Store][4]
 
