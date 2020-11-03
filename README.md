@@ -19,7 +19,7 @@ Ping Viewer 是 [Ping/P30/S500][4] 等声呐的上位机软件. [P30][4] 是一�
 
 请查阅 [Ping Viewer 中文手册][2].
 
-## Downloads :package:
+## 软件下载 :package:
 
 - :computer: [Windows](https://github.com/bluerobotics/ping-viewer/releases/download/stable/pingviewer_release.zip)
 - :apple: [Apple](https://github.com/bluerobotics/ping-viewer/releases/download/stable/pingviewer-release.dmg)
