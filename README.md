@@ -18,7 +18,7 @@ Ping Viewer 是 [Ping/P30][4] 等声呐的上位机软件. [Ping/P30][4] 是一�
 
 ## 快速使用 :blue_book:
 
-Take a look at [our documentation with **installation steps** and **technical information** about ping][2].
+请查阅 [Ping Viewer 中文手册][2].
 
 ## Downloads :package:
 
@@ -36,7 +36,7 @@ Take a look at [our documentation with **installation steps** and **technical in
 * [Store][4]
 
 [1]: https://github.com/bluerobotics/ping-protocol
-[2]: https://docs.bluerobotics.com/ping-viewer/
+[2]: http://searobotix.com/docs/ping-viewer/
 [3]: https://github.com/bluerobotics/software-guidelines
 [4]: http://searobotix.com/p30-sonar/
 [5]: https://discuss.bluerobotics.com/
