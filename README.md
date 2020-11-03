@@ -7,10 +7,6 @@
 ![](https://img.shields.io/github/commit-activity/4w/bluerobotics/ping-viewer.svg)
 ![](https://img.shields.io/github/search/bluerobotics/ping-viewer/TODO:.svg)
 
-<a href="https://bluerobotics.com">
-<img src="https://avatars2.githubusercontent.com/u/7120633?v=3&s=200" align="left" hspace="10" vspace="6">
-</a>
-
 
 Graphical user interface for the Blue Robotics Ping echosounder. Ping is a simple, affordable, and compact rangefinder
 for any aquatic project. Ping is [available here][4]!
