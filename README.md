@@ -16,7 +16,7 @@ Ping Viewer 是 [Ping/P30][4] 等声呐的上位机软件. [Ping/P30][4] 是一�
 
 <br/>
 
-## Quick Start :blue_book:
+## 快速使用 :blue_book:
 
 Take a look at [our documentation with **installation steps** and **technical information** about ping][2].
 
