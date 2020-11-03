@@ -27,11 +27,11 @@ Ping Viewer 是 [Ping/P30/S500][4] 等声呐的上位机软件. [P30][4] 是一�
 
 ## 资源 :paperclip:
 
-* [Application Documentation][2]
-* [API Reference][1]
-* [Device Specifications][4]
+* [*Ping Viewer* 用户手册][2]
+* [API 接口手册][1]
+* [设备参数][4]
 * [License](http://github.com/bluerobotics/ping-viewer/blob/master/LICENSE.md)
-* [Store][4]
+* [产品购买][4]
 
 [1]: http://searobotix.com/docs/ping-protocol/
 [2]: http://searobotix.com/docs/ping-viewer/
