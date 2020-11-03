@@ -34,8 +34,7 @@ Ping Viewer 是 [Ping/P30/S500][4] 等声呐的上位机软件. [P30][4] 是一�
 * [License](http://github.com/bluerobotics/ping-viewer/blob/master/LICENSE.md)
 * [Store][4]
 
-[1]: https://github.com/bluerobotics/ping-protocol
+[1]: http://searobotix.com/docs/ping-protocol/
 [2]: http://searobotix.com/docs/ping-viewer/
-[3]: https://github.com/bluerobotics/software-guidelines
 [4]: http://searobotix.com/p30-sonar/
 [5]: https://www.bluerobotics.com/
