@@ -1,4 +1,4 @@
-# Ping-Viewer
+# Ping Viewer
 
 [![Travis Build Status](https://travis-ci.org/bluerobotics/ping-viewer.svg?branch=master)](https://travis-ci.org/bluerobotics/ping-viewer)
 [![Build status](https://ci.appveyor.com/api/projects/status/y4nl4spd3yw1s4bn/branch/master?svg=true)](https://ci.appveyor.com/project/blueroboticsappveyor/ping-viewer/branch/master)
@@ -11,9 +11,9 @@
 Ping Viewer 是 P30/P360 等声呐软件的上位机程序. Ping is a simple, affordable, and compact rangefinder
 for any aquatic project. Ping is [available here][4]!
 
-无论对于初学者或者开发者，_Ping Viewer_都可以让声呐使用变得更简单. PingViewer 提供了全部的开发接口，包括参数配置、可视化接口等信息，通过 [ping-protocol][1].实现。
+无论对于初学者或者开发者，Ping Viewer 都可以让声呐使用变得更简单. PingViewer 提供了全部的开发接口，包括参数配置、可视化接口等信息，通过 [ping-protocol][1].实现。
 
-All of the code is open-source, so you can modify it and contribute. Follow [Blue Robotics software guidelines][3] for more information.
+所有的代码都是开源的，任何人都可以修改或者贡献自己的程序.
 
 <br/>
 
