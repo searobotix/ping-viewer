@@ -8,7 +8,7 @@
 ![](https://img.shields.io/github/search/bluerobotics/ping-viewer/TODO:.svg)
 
 
-Graphical user interface for the Blue Robotics Ping echosounder. Ping is a simple, affordable, and compact rangefinder
+Ping Viewer 是 P30/P360 等声呐软件的上位机程序. Ping is a simple, affordable, and compact rangefinder
 for any aquatic project. Ping is [available here][4]!
 
 The primary goal of _Ping Viewer_ is to be easy to use for both first time and advanced users. It provides full access to the sensor configuration, setup and visualization via [ping-protocol][1].
