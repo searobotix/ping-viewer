@@ -21,7 +21,7 @@
 
 ## 软件下载 :package:
 
-- :computer: [Windows](https://github.com/bluerobotics/ping-viewer/releases/download/stable/pingviewer_release.zip) / [Windows](https://share.weiyun.com/5Y6mUom)
+- :computer: [Windows](https://github.com/bluerobotics/ping-viewer/releases/download/stable/pingviewer_release.zip) / [Windows（中国大陆）](https://share.weiyun.com/5Y6mUom)
 - :apple: [Apple](https://github.com/bluerobotics/ping-viewer/releases/download/stable/pingviewer-release.dmg)
 - :penguin: [Linux](https://github.com/bluerobotics/ping-viewer/releases/download/stable/pingviewer-x86_64.AppImage)
 
